@@ -1,0 +1,153 @@
+body{
+    transition: 1s;
+}
+img{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#darkmode{
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    transition: 0.3s;
+    margin: auto;
+    display: block;
+    width: 10rem;
+   
+}
+#darkmode:active{
+box-shadow: 0px 5px 11px 6px black;
+opacity: 0.6;
+}
+#darkmode:hover{
+    box-shadow: 0px 5px 11px 6px black;
+    cursor: pointer;
+}
+.switchdark{
+    background-color: #222;
+    
+}
+
+.main{
+    background-color: #e478ff;
+    width: 70%;
+    margin: auto;
+    padding: 3rem 2rem;
+    padding-top: 1rem;
+    max-width: 600px;
+}
+
+
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
+
+select{
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+select:hover{
+    cursor: pointer;
+}
+
+option{
+    background-color: rgb(255, 251, 0);
+    
+}
+
+.buttons{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+
+#p1Button{
+    padding: 1rem 1.4rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #80e63c;
+    transition: 0.1ms;
+}
+#p1Button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#p1Button:active{
+    background-color: transparent;
+    color: #80e63c;
+    border: 2px solid #80e63c;
+    opacity: 0.6;
+}
+#p1Button:disabled{
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+
+
+
+#p2Button{
+padding: 1rem 1.4rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #3ec8f1;
+    transition: 0.1ms;
+}
+#p2Button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#p2Button:active {
+    background-color: transparent;
+    color: #3ec8f1;
+    border: 2px solid #3ec8f1;
+    opacity: 0.6;
+}
+
+#p2Button:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+
+
+
+#reset{
+padding: 1rem 1.4rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #ff7b00;
+    transition: 0.1ms;
+    grid-column: 1 / span 2;
+        width: 100%;
+        margin: 0 auto;
+}
+#reset:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#reset:active {
+    background-color: transparent;
+    color: #ff7b00;
+    border: 2px solid #ff7b00;
+    opacity: 0.6;
+}
+
+#reset:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+@media only screen and (min-width:600px){
+
+}
