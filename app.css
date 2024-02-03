@@ -59,9 +59,7 @@ option{
     background-color: rgb(255, 251, 0);
     
 }
-button{
-    color: black;
-}
+
 .buttons{
     display: grid;
         grid-template-columns: 1fr 1fr;
@@ -75,6 +73,7 @@ button{
     border-radius: 0.4rem;
     background-color: #80e63c;
     transition: 0.1ms;
+    
 }
 #p1Button:hover{
     cursor: pointer;
